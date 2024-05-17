@@ -26,6 +26,12 @@ def index_of(word, my_list):
 
 
 def put(word, list):
+    i=0
+    while i < len(my_list):
+        if my_list[i]=="":
+            my_list[i]= word
+            return i
+        i+=1
     return -1
 
 
