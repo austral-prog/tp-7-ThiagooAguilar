@@ -36,4 +36,12 @@ def put(word, list):
 
 
 def remove(word, list):
-    return -1
+    def remove(word, my_list):
+    i=0
+    count=0
+    while i < len(my_list):
+        if my_list[i]==word:
+            my_list[i]=""
+            count+=1
+        i+=1
+    return count
