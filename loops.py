@@ -6,7 +6,12 @@ def index_of_empty(list):
     return -1
 
 
-def index_of(word, list):
+def index_of(word, my_list):
+    i=0
+    while i < len(my_list):
+        if my_list[i]==word:
+            return i 
+        i+=1
     return -1
 
 
