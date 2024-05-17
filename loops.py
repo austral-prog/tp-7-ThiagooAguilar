@@ -1,4 +1,4 @@
-def index_of_by_index(word, list, index):
+def index_of_by_index(word, my_list, index):
     i=index
     while i < len(my_list):
         if my_list[i]==word:
@@ -7,7 +7,7 @@ def index_of_by_index(word, list, index):
     return -1
 
 
-def index_of_empty(list):
+def index_of_empty(my_list):
     i=0
     while i < len(my_list):
         if my_list[i] == "":
@@ -25,7 +25,7 @@ def index_of(word, my_list):
     return -1
 
 
-def put(word, list):
+def put(word, my_list):
     i=0
     while i < len(my_list):
         if my_list[i]=="":
@@ -35,8 +35,7 @@ def put(word, list):
     return -1
 
 
-def remove(word, list):
-    def remove(word, my_list):
+def remove(word, my_list):
     i=0
     count=0
     while i < len(my_list):
