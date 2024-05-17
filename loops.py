@@ -8,6 +8,11 @@ def index_of_by_index(word, list, index):
 
 
 def index_of_empty(list):
+    i=0
+    while i < len(my_list):
+        if my_list[i] == "":
+            return i
+        i += 1
     return -1
 
 
