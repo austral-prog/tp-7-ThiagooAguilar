@@ -1,4 +1,9 @@
 def index_of_by_index(word, list, index):
+    i=index
+    while i < len(my_list):
+        if my_list[i]==word:
+            return i
+        i+=1
     return -1
 
 
